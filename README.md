@@ -1,1 +1,3 @@
 # Data-warehouse-design-for-a-Publisher-s-payment-to-Authors
+
+This aims to build a data warehouse to report publisher's payments to authors. With Kimball’s model, the designed data warehouse is a star schema with three dimensional tables. The first table holds information on book titles, second on royalties, and third on which author is working on a title. Following the style of design the data warehouse is able to calculate payment and royalties due to authors per book title to their name. This enables the warehouse capable of reporting what the authors are paid by the publishers for their efforts.
